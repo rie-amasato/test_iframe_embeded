@@ -56,6 +56,6 @@ setTimeout(()=>{// 画面描画後じゃないとCOOKIEなどが取れないの�
         console.log("catch")
         sessionStorage.setItem("tes",0)
     }
-},1000)
+},1)
 
 </script>
