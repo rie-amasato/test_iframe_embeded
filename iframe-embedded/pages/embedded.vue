@@ -30,11 +30,11 @@ setTimeout(()=>{// 画面描画後じゃないとCOOKIEなどが取れないの�
     try{
         const int_localsvalue=parseInt(localStorage.getItem("tes"))+1
 
-        if (!isNaN(int_sessionsvalue)){
+        if (!isNaN(int_localsvalue)){
             localStorage.setItem("tes", int_localsvalue)
 
             int_locals.value=int_localsvalue
-        else{
+        }else{
             localStorage.setItem("tes", 0)
         }
 
