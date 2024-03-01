@@ -23,7 +23,7 @@ setTimeout(()=>{// 画面描画後じゃないとCOOKIEなどが取れないの�
     .find((r)=>r.startsWith("tes"))
     ?.split("=")[1])+1
     
-    document.cookie=`tes=${int_cookie_tes || 1};`
+    document.cookie=`tes=${int_cookie_tes || 0};`
     int_cookie.value=int_cookie_tes;
 
     // LocalStorage
